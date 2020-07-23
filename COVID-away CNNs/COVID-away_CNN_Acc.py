@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import tensorflow as tf
 
-model = tf.keras.models.load_model('CNN_Acc.h5')
+model = tf.keras.models.load_model('COVID-away_CNN_Acc.h5')
 
 acc_test = pd.read_csv("Test.csv")
 
@@ -49,13 +49,11 @@ print(classification_report(y_1, yhat))
 
 converter = tf.lite.TFLiteConverter.from_keras_model(model)
 tflite_model = converter.convert()
-open("acc_model_auto_tflite.tflite", "wb").write(tflite_model)
 
 converter = tf.lite.TFLiteConverter.from_keras_model(model)
 converter.optimizations = [tf.lite.Optimize.OPTIMIZE_FOR_SIZE]
 tflite_model = converter.convert()
 
-open("acc_model_auto_tflite_quantized.tflite", "wb").write(tflite_model)
+open("COVID-away_CNN_Acc_tflite_quantized.tflite", "wb").write(tflite_model)
 
 
-autoencoder_model_quantized = tf.lite.Interpreter('acc_model_auto_tflite_quantized.tflite')
