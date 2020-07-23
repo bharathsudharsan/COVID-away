@@ -1,4 +1,4 @@
-## Features extractor 
+## Features Extractor 
 
 The Features_extractor.py enables users to extract 10 essential features from a single data field in any sensor-based motion dataset. Users can use this code on their datasets, to compute the following features:
 1. Mean value                   
