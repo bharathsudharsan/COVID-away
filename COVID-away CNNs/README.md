@@ -3,3 +3,8 @@ To replicate the results from Table 3, one by one run: "python COVID-away_CNN_Ac
 Our COVID-away CNNs, once deployed on smartwatches, can instantly warn the users when their hands are moved (un-intentionally) to the face.
 1. The first model, "COVID-away_CNN_Acc.h5" requires only Accelerometer data (Acc = 39 features) to detect hand-to-face movement. 
 2. The second model, "COVID-away_CNN_Acc+Gyro.h5" was trained using additional Gyroscope data (Acc+Gyro = 78 features), hence requiring real-time data from two sensors for hand-to-face movement detection. 
+
+In order to produce a smartwatch friendly version of the above models, we optimize the CNNs by quantizing both its weights & activations to INT-8. The latency & size optimized versions of above models are:
+
+1. COVID-away_CNN_Acc_tflite_quantized.tflite
+2. COVID-away_CNN_Acc+Gyro_tflite_quantized.tflite
