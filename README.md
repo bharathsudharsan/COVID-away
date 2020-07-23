@@ -6,4 +6,4 @@ This repo contains:
 2. We provide a generic feature extractor for enabling users to extract 10 essential features from a single data field in any sensor-based motion dataset. Using this, we compute 102 features for each recorded hand-to-face motion data pattern.
 3. COVID-away Models: We provide one-class classification models and a CNN trained using the features extracted from our COVID-away Dataset. Our models instantly warn the users when their hands are moved (un-intentionally) to the face.
 
-For any clarification/further information please don't hesitate to contact me. Email: b.sudharsan@nuigalway.ie
+For any clarification/further information please don't hesitate to contact me. Email: b.sudharsan1@nuigalway.ie
