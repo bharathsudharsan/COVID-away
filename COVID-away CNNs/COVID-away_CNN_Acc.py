@@ -2,6 +2,7 @@ from sklearn.metrics import precision_recall_fscore_support, classification_repo
 import numpy as np
 import pandas as pd
 import tensorflow as tf
+import time
 
 model = tf.keras.models.load_model('COVID-away_CNN_Acc.h5')
 
@@ -26,9 +27,10 @@ acc_X1 = acc_test.drop(['Pattern','GYR_x_axis_mean','GYR_y_axis_mean','GYR_z_axi
                       'CosO_arCoeff_2','CosO_arCoeff_3','CosO_arCoeff_4','CosO_kurtosis','CosO_energy','label'], axis=1)
 
 acc_y1 = acc_test.label
-
+start_time_int_float_full = time.time()
 yhat = model.predict(acc_X1)
-
+results = {'Time to infer': (time.time() - start_time_int_float_full)}
+print (results)
 yhat = pd.DataFrame(yhat)
 
 yhat = yhat[0].tolist()
