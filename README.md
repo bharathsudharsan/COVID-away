@@ -1,4 +1,21 @@
-## COVID-away: A Hand-to-face 3D Motion Dataset and Trained Models
+# COVID-away: Hand-to-face 3D Motion Dataset and Models for Smartwatches
+
+### Overview
+
+World Health Organisation (WHO) advises that humans must try to avoid touching their eye, nose and mouth,
+which is an effective way to stop the spread of viral diseases. This has become even more prominent with
+the widespread coronavirus (COVID-19), resulting in a global pandemic. However, we humans on average
+touch our face (eye, nose and mouth) 10-20 times an hour, which is often the primary source of getting infected by a variety of viral infections including seasonal Influenza, Coronavirus, Swine
+flu, Ebola virus, etc. Touching our face all day long is a quirk of human nature and it is extremely
+difficult to train people to avoid touching their face. However, wearable devices and technology can help
+to continuously monitor our movements and trigger a timely event reminding people to avoid touching
+their face. In this work, we have collected a hand-to-face multi-sensor 3D motion dataset and named it
+COVID-away dataset. Using our dataset, we trained models that can continuously monitor human arm/hand
+movement using a wearable device and trigger a timely notification (e.g. vibration) to warn the device users
+when their hands are moved (unintentionally) towards their face. Our trained COVID-away models can be
+easily integrated into an app for smartwatches or fitness bands. Our evaluation shows that the Minimum
+Covariance Determinant (MCD) model produces the highest F1-score (0.93) using just the smartwatch’s
+accelerometer data (39 features).
 
 This repo contains: 
 
@@ -9,7 +26,7 @@ This repo contains:
 If you use the code in this repository in your work, please cite this paper using the BibTex entry below.
 
 ```
-@inproceedings{BharathRCENN,
+@inproceedings{Bharathcovidaway,
   author    = {Bharath Sudharsan and John G. Breslin and Muhammad Intizar Ali},
   title     = {Avoid Touching Your Face: A Hand-to-face 3D Motion Dataset (COVID-away) and Trained Models for Smartwatches},
   booktitle = {In 10th International Conference on the Internet of Things Companion (IoT ’20 Companion), Malmö, Sweden, October 6–9, 2020},
