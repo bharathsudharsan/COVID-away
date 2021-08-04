@@ -17,6 +17,8 @@ easily integrated into an app for smartwatches or fitness bands. Our evaluation 
 Covariance Determinant (MCD) model produces the highest F1-score (0.93) using just the smartwatch’s
 accelerometer data (39 features).
 
+**Link to paper:** [http://www.johnbreslin.org/files/publications/20201006_ioth2020.pdf](http://www.johnbreslin.org/files/publications/20201006_ioth2020.pdf)
+
 ## Repo contnet 
 
 ### COVID-away Dataset
