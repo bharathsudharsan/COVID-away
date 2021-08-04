@@ -29,7 +29,7 @@ As illustrated in below Figure, we recorded the accelerometer, gyroscope, barome
 
 We provide a generic feature extractor for enabling users to extract 10 essential features (given in below Table 1) from a single data field (dataset row) in any sensor-based motion dataset. Using this, we compute 102 features for each recorded hand-to-face motion data pattern.
 
-![alt text]()
+![alt text](https://github.com/bharathsudharsan/COVID-away/blob/master/Table1_feature_vectors.PNG)
 
 ### COVID-away Models
 
