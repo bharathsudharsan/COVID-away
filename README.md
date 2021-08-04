@@ -1,6 +1,6 @@
 # COVID-away: Hand-to-face 3D Motion Dataset and Models for Smartwatches
 
-### Overview
+## Overview
 
 World Health Organisation (WHO) advises that humans must try to avoid touching their eye, nose and mouth,
 which is an effective way to stop the spread of viral diseases. This has become even more prominent with
@@ -17,9 +17,11 @@ easily integrated into an app for smartwatches or fitness bands. Our evaluation 
 Covariance Determinant (MCD) model produces the highest F1-score (0.93) using just the smartwatch’s
 accelerometer data (39 features).
 
-This repo contains: 
+## Repo contnet 
 
-1. COVID-away dataset: We recorded the accelerometer, gyroscope, barometric pressure \& rotation vector data for 2071 dynamic hand-to-face movements, performed with various postures (standing, leaning, slouching, etc.) and wrist orientations (variations in Roll, Pitch, and Yaw).
+1. COVID-away dataset
+
+We recorded the accelerometer, gyroscope, barometric pressure \& rotation vector data for 2071 dynamic hand-to-face movements, performed with various postures (standing, leaning, slouching, etc.) and wrist orientations (variations in Roll, Pitch, and Yaw).
 2. We provide a generic feature extractor for enabling users to extract 10 essential features from a single data field in any sensor-based motion dataset. Using this, we compute 102 features for each recorded hand-to-face motion data pattern.
 3. COVID-away Models: We provide one-class classification models and a CNN trained using the features extracted from our COVID-away Dataset. Our models instantly warn the users when their hands are moved (un-intentionally) to the face.
 
