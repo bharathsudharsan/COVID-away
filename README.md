@@ -21,11 +21,15 @@ accelerometer data (39 features).
 
 ### COVID-away Dataset
 
-We recorded the accelerometer, gyroscope, barometric pressure \& rotation vector data for 2071 dynamic hand-to-face movements, performed with various postures (standing, leaning, slouching, etc.) and wrist orientations (variations in Roll, Pitch, and Yaw).
+As illustrated in below Figure, we recorded the accelerometer, gyroscope, barometric pressure \& rotation vector data for 2071 dynamic hand-to-face movements, performed with various postures (standing, leaning, slouching, etc.) and wrist orientations (variations in Roll, Pitch, and Yaw).
+
+![alt text](https://github.com/bharathsudharsan/COVID-away/blob/master/Covid-away_dataset_building.png)
 
 ### Features Extractor
 
-We provide a generic feature extractor for enabling users to extract 10 essential features from a single data field in any sensor-based motion dataset. Using this, we compute 102 features for each recorded hand-to-face motion data pattern.
+We provide a generic feature extractor for enabling users to extract 10 essential features (given in below Table 1) from a single data field (dataset row) in any sensor-based motion dataset. Using this, we compute 102 features for each recorded hand-to-face motion data pattern.
+
+![alt text]()
 
 ### COVID-away Models
 
