@@ -53,4 +53,4 @@ If the code is useful, please consider citing Covid-away paper using the below B
 }
 ```
 
-For any clarification/further information please don't hesitate to contact me. Email: b.sudharsan1@nuigalway.ie
+For any clarification/further information please don't hesitate to contact me. Email: bharathsudharsan023@gmail.com
