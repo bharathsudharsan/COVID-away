@@ -1,6 +1,6 @@
-# COVID-away: Hand-to-face 3D Motion Dataset and Models for Smartwatches
+## COVID-away: Hand-to-face 3D Motion Dataset and Models for Smartwatches
 
-## Overview
+### Overview
 
 World Health Organisation (WHO) advises that humans must try to avoid touching their eye, nose and mouth,
 which is an effective way to stop the spread of viral diseases. This has become even more prominent with
@@ -20,8 +20,6 @@ accelerometer data (39 features).
 **Paper:** [http://www.johnbreslin.org/files/publications/20201006_ioth2020.pdf](http://www.johnbreslin.org/files/publications/20201006_ioth2020.pdf)
 **Video:**[https://confirm.ie/covid_away/](https://confirm.ie/covid_away/)
 
-## Repo contnet 
-
 ### COVID-away Dataset
 
 As shown below, we recorded the accelerometer, gyroscope, barometric pressure \& rotation vector data for 2071 dynamic hand-to-face movements, performed with various postures (standing, leaning, slouching, etc.) and wrist orientations (variations in Roll, Pitch, and Yaw).
@@ -33,12 +31,13 @@ As shown below, we recorded the accelerometer, gyroscope, barometric pressure \&
 We provide a generic feature extractor for enabling users to extract 10 essential features (given in below Table 1) from a single data field (dataset row) in any sensor-based motion dataset. Using this, we compute 102 features for each recorded hand-to-face motion data pattern.
 
 ![alt text](https://github.com/bharathsudharsan/COVID-away/blob/master/Table1_feature_vectors.PNG)
+
 ### COVID-away Models
 
 We provide the beloy type models trained using the features extracted from our COVID-away Dataset. These models when deployed on smartwatches, instantly warn the users when their hands are moved (un-intentionally) to the face.
 
-1. COVID-away One-Class Classification Models such as One-Class SupportVector Machines (OC-SVM), Isolation Forest (iForest), Minimum Covariance Determinant (MCD),Local Outlier Factor (LOF).
-2. COVID-away CNNs and their model size & latency optimized versions.
+- COVID-away One-Class Classification Models such as One-Class SupportVector Machines (OC-SVM), Isolation Forest (iForest), Minimum Covariance Determinant (MCD),Local Outlier Factor (LOF).
+- COVID-away CNNs and their model size & latency optimized versions.
 
 If the code is useful, please consider citing Covid-away paper using the below BibTex entry:
 
