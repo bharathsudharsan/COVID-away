@@ -18,6 +18,7 @@ Covariance Determinant (MCD) model produces the highest F1-score (0.93) using ju
 accelerometer data (39 features).
 
 **Paper:** [http://www.johnbreslin.org/files/publications/20201006_ioth2020.pdf](http://www.johnbreslin.org/files/publications/20201006_ioth2020.pdf)
+
 **Video:**[https://confirm.ie/covid_away/](https://confirm.ie/covid_away/)
 
 ### COVID-away Dataset
