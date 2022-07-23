@@ -16,6 +16,8 @@ Evaluation shows that the Minimum Covariance Determinant (MCD) model produces th
 
 **Video:** [https://confirm.ie/covid_away/](https://confirm.ie/covid_away/)
 
+**WHO pagge** [https://search.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/en/covidwho-901451](https://search.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/en/covidwho-901451)
+
 ### COVID-away Dataset
 
 As shown below, we recorded the accelerometer, gyroscope, barometric pressure \& rotation vector data for 2071 dynamic hand-to-face movements, performed with various postures (standing, leaning, slouching, etc.) and wrist orientations (variations in Roll, Pitch, and Yaw).
