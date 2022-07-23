@@ -1,6 +1,10 @@
 # COVID-away CNNs
 
-To replicate the results from the below Table 3, one by one run: 'python COVID-away_CNN_Acc.py', then 'COVID-away_CNN_Acc+Gyro.py'. The Test.csv contains 100 new motion patterns for both hand-to-face \& non-hand-to-face motion data recorded using a new, fourth volunteer.
+To replicate the results from the below Table 3, one by one run: 
+ - 'python [COVID-away_CNN_Acc.py](https://github.com/bharathsudharsan/COVID-away/blob/master/COVID-away%20CNNs/COVID-away_CNN_Acc.py)'
+ - 'python [COVID-away_CNN_Acc+Gyro.py](https://github.com/bharathsudharsan/COVID-away/blob/master/COVID-away%20CNNs/COVID-away_CNN_Acc%2BGyro.py)'
+ 
+ The [Test.csv](https://github.com/bharathsudharsan/COVID-away/blob/master/COVID-away%20CNNs/Test.csv) contains 100 new motion patterns for both hand-to-face \& non-hand-to-face motion data recorded using a new, fourth volunteer.
 
 ![alt text](https://github.com/bharathsudharsan/COVID-away/blob/master/Table3_result.PNG)
 
