@@ -1,6 +1,6 @@
 # COVID-away Dataset and Visualization
 
-There are 2071 data patterns for various hand-to-face motion recorded in the COVID-away_dataset folder. 
+There are 2071 data patterns for various hand-to-face motion recorded in the [COVID-away_dataset](https://github.com/bharathsudharsan/COVID-away/tree/master/COVID-away_dataset_visualization/COVID-away_dataset) folder. 
 
 To visualize these patterns (one by one), run this program using 'python [visualize_data_patterns_in_COVID-away.py](https://github.com/bharathsudharsan/COVID-away/blob/master/COVID-away_dataset_visualization/visualize_data_patterns_in_COVID-away.py)'
 Then enter any number between 0 - 2071, to obtain the visualization of that respective data pattern. For example, I have visualized data patterns 0, 50, 400, 600, 1971, and saved the resulting images here. The pattern for 0 is displayed below.
