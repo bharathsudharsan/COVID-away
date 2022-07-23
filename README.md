@@ -37,8 +37,12 @@ We provide a generic feature extractor for enabling users to extract 10 essentia
 
 We provide the beloy type models trained using the features extracted from our COVID-away Dataset. These models when deployed on smartwatches, instantly warn the users when their hands are moved (un-intentionally) to the face.
 
-- COVID-away One-Class Classification Models such as One-Class SupportVector Machines (OC-SVM), Isolation Forest (iForest), Minimum Covariance Determinant (MCD),Local Outlier Factor (LOF).
-- COVID-away CNNs and their model size & latency optimized versions.
+- COVID-away One-Class Classification Models include:
+  -  One-Class SupportVector Machines (OC-SVM)
+  -  Isolation Forest (iForest)
+  -  Minimum Covariance Determinant (MCD)
+  -  Local Outlier Factor (LOF).
+- COVID-away CNNs and their model size & latency optimized versions
 
 If the code is useful, please consider citing Covid-away paper using the below BibTex entry:
 
