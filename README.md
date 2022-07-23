@@ -17,7 +17,8 @@ easily integrated into an app for smartwatches or fitness bands. Our evaluation 
 Covariance Determinant (MCD) model produces the highest F1-score (0.93) using just the smartwatch’s
 accelerometer data (39 features).
 
-**Link to paper:** [http://www.johnbreslin.org/files/publications/20201006_ioth2020.pdf](http://www.johnbreslin.org/files/publications/20201006_ioth2020.pdf)
+**Paper:** [http://www.johnbreslin.org/files/publications/20201006_ioth2020.pdf](http://www.johnbreslin.org/files/publications/20201006_ioth2020.pdf)
+**Video:**[https://confirm.ie/covid_away/](https://confirm.ie/covid_away/)
 
 ## Repo contnet 
 
@@ -34,7 +35,7 @@ We provide a generic feature extractor for enabling users to extract 10 essentia
 ![alt text](https://github.com/bharathsudharsan/COVID-away/blob/master/Table1_feature_vectors.PNG)
 ### COVID-away Models
 
-We provide the beloy type models trained using the features extracted from our COVID-away Dataset. Our models when deployed on smartwatches, instantly warn the users when their hands are moved (un-intentionally) to the face.
+We provide the beloy type models trained using the features extracted from our COVID-away Dataset. These models when deployed on smartwatches, instantly warn the users when their hands are moved (un-intentionally) to the face.
 
 1. COVID-away One-Class Classification Models such as One-Class SupportVector Machines (OC-SVM), Isolation Forest (iForest), Minimum Covariance Determinant (MCD),Local Outlier Factor (LOF).
 2. COVID-away CNNs and their model size & latency optimized versions.
