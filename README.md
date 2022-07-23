@@ -23,7 +23,7 @@ accelerometer data (39 features).
 
 ### COVID-away Dataset
 
-As illustrated in below Figure, we recorded the accelerometer, gyroscope, barometric pressure \& rotation vector data for 2071 dynamic hand-to-face movements, performed with various postures (standing, leaning, slouching, etc.) and wrist orientations (variations in Roll, Pitch, and Yaw).
+As shown below, we recorded the accelerometer, gyroscope, barometric pressure \& rotation vector data for 2071 dynamic hand-to-face movements, performed with various postures (standing, leaning, slouching, etc.) and wrist orientations (variations in Roll, Pitch, and Yaw).
 
 ![alt text](https://github.com/bharathsudharsan/COVID-away/blob/master/Covid-away_dataset_building.png)
 
