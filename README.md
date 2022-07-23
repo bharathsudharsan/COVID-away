@@ -16,7 +16,7 @@ Evaluation shows that the Minimum Covariance Determinant (MCD) model produces th
 
 **Video:** [https://confirm.ie/covid_away/](https://confirm.ie/covid_away/)
 
-**WHO pagge** [https://search.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/en/covidwho-901451](https://search.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/en/covidwho-901451)
+**WHO page** [https://search.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/en/covidwho-901451](https://search.bvsalud.org/global-literature-on-novel-coronavirus-2019-ncov/resource/en/covidwho-901451)
 
 ### COVID-away Dataset
 
