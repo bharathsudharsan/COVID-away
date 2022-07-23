@@ -45,7 +45,7 @@ If the code is useful, please consider citing Covid-away paper using the below B
 @inproceedings{Bharathcovidaway,
   author    = {Bharath Sudharsan and John G. Breslin and Muhammad Intizar Ali},
   title     = {Avoid Touching Your Face: A Hand-to-face 3D Motion Dataset (COVID-away) and Trained Models for Smartwatches},
-  booktitle = {In 10th International Conference on the Internet of Things Companion (IoT ’20 Companion), Malmö, Sweden, October 6–9, 2020},
+  booktitle = {In 10th International Conference on the Internet of Things Companion (IoT ’20 Companion)},
   publisher = {ACM},
   year      = {2020},
   url       = {https://doi.org/10.1145/3423423.3423433},
